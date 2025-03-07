@@ -5,7 +5,7 @@ body {
 
 /* Стили для header (заголовка) */
 header {
-    height: 150px;
+    height: 80px;
     width: 150vh;
     margin-left: 30vh;
     background-color: lightblue;
@@ -15,18 +15,18 @@ header {
 
 header h1 {
     color: lightcoral;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 /* Стили для footer (подвала) */
 footer {
-    height: 150px;
+    height: 80px;
     width: 150vh;
     margin-left: 30vh;
-    margin-top: 15vh;
+    margin-top: 13vh;
     background-color: lightblue;
     border-radius: 20px;
     display: flex;
@@ -36,7 +36,7 @@ footer {
 }
 
 footer a {
-    font-size: 80px;
+    font-size: 50px;
     color: coral;
     text-decoration: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -64,7 +64,7 @@ footer a:hover {
 .gui form {
     background-color: #f8d9e1;
     border-radius: 20px;
-    width: 50vh;
+    width: 80vh;
     height: 50vh;
     box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
     display: flex;
@@ -73,7 +73,7 @@ footer a:hover {
 
 /* Стили для текстовых полей ввода */
 input[type="text"] {
-    width: 700px;
+    width: 500px;
     height: 100px;
     background-color: white;
     border-radius: 20px;
@@ -82,19 +82,19 @@ input[type="text"] {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
-    margin-top: 50px;
-    margin-left: 10vh;
+    margin-top: 20px;
+    margin-left: 14vh;
 }
 
 /* Стили для выпадающего списка */
 .gui select {
     background-color: lightblue;
     border-radius: 20px;
-    width: 500px;
+    width: 200px;
     height: 100px;
     font-size: 30px;
-    margin-top: 50px;
-    margin-left: 15vh;
+    margin-top: 1px;
+    margin-left: 30vh;
     color: coral;
     box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -107,14 +107,14 @@ input[type="text"] {
 /* Стили для кнопки */
 .gui form button {
     background-color: lightblue;
-    width: 400px;
-    height: 100px;
+    width: 240px;
+    height: 80px;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
-    margin-left: 17vh;
-    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 28vh;
+    font-size: 30px;
     color: coral;
 }
 
@@ -126,9 +126,9 @@ input[type="text"] {
 
 /* Стили для результата */
 .gui form p{
-    margin-top: 60px;
-    margin-left: 22vh;
+    margin-top: 30px;
+    margin-left: 30vh;
     color: lightcoral;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    font-size: 40px;
+    font-size: 35px;
 }
