@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Заголовок страницы, устанавливаем мета-данные, подключаем CSS файл -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение стилей -->
+</head>
+<body>
+    <!-- Заголовок страницы -->
+    <header>
+        <h1>Welcome to Web Calculator!</h1>
+    </header>
+
+    <section>
+        <!-- Контейнер для интерфейса калькулятора -->
+        <div class="gui">
+            <form action="">
+                <!-- Поля ввода для чисел -->
+                <input type="text" name="firstNumber" id="firstNumber" placeholder="Enter a first number">
+                <br>
+                <input type="text" name="secondNumber" id="secondNumber" placeholder="Enter a second number">
+                <br>
+                <!-- Выпадающий список для выбора операции -->
+                <select name="operations" id="operations">
+                    <option value="sum">+</option>
+                    <option value="subtract">-</option>
+                    <option value="multiply">*</option>
+                    <option value="divide">/</option>
+                </select>
+                <!-- Кнопка для вычисления -->
+                <button type="submit" onclick="calculate()">Calculate</button>
+                <!-- Место для отображения результата -->
+                <p id="result"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал страницы с ссылкой на исходный код -->
+    <footer>
+        <a href="https://github.com/dissolvedcurse">Source code</a>
+    </footer>
+
+    <!-- Подключение JS файла -->
+    <script src="script.js"></script>
+</body>
+</html>

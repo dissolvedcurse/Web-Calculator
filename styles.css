@@ -1,0 +1,134 @@
+/* Основные стили для body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Стили для header (заголовка) */
+header {
+    height: 150px;
+    width: 150vh;
+    margin-left: 30vh;
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+}
+
+header h1 {
+    color: lightcoral;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+/* Стили для footer (подвала) */
+footer {
+    height: 150px;
+    width: 150vh;
+    margin-left: 30vh;
+    margin-top: 15vh;
+    background-color: lightblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+}
+
+footer a {
+    font-size: 80px;
+    color: coral;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer a:hover {
+    color: lightcyan;
+}
+
+/* Стили для контейнера калькулятора */
+.gui {
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 100vh;
+    height: 60vh;
+    margin-left: 55vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+}
+
+/* Стили для формы в контейнере калькулятора */
+.gui form {
+    background-color: #f8d9e1;
+    border-radius: 20px;
+    width: 50vh;
+    height: 50vh;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стили для текстовых полей ввода */
+input[type="text"] {
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+    margin-top: 50px;
+    margin-left: 10vh;
+}
+
+/* Стили для выпадающего списка */
+.gui select {
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 15vh;
+    color: coral;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.gui select:hover {
+    background-color: #f0f0f0;
+}
+
+/* Стили для кнопки */
+.gui form button {
+    background-color: lightblue;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(1, 1, 1, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    margin-left: 17vh;
+    font-size: 40px;
+    color: coral;
+}
+
+.gui form button:hover {
+    background-color: lightcyan;
+    color: gray;
+    font-weight: bold;
+}
+
+/* Стили для результата */
+.gui form p{
+    margin-top: 60px;
+    margin-left: 22vh;
+    color: lightcoral;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+}
