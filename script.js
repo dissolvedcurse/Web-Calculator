@@ -1,5 +1,5 @@
 // Функция для выполнения вычислений
-function calculate(event) {
+function calculate() {
     // Останавливаем отправку формы
     event.preventDefault();
 
